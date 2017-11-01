@@ -1,7 +1,7 @@
 ## TiSpark example
 
 Usage:
-1. Download or compile tispark [here](https://github.com/pingcap/tispark) and make sure it is visible in your local [maven](maven.apache.org) repository.
+1. Download or compile tispark [here](https://github.com/pingcap/tispark) and make sure it is visible in your local [maven](maven.apache.org) repository(Which means that you may need to execute `mvn clean install` in your `tispark` directory to install `tispark` to your local `.m2` repository).
 2. In your project pom.xml, include these dependencies:
 ```
 <dependencies>
@@ -129,7 +129,7 @@ Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
 |       19|Customer#000000019|uc,3bHIx84H,wdrmL...|         18|28-396-526-5053|  8914.71|   HOUSEHOLD| nag. furiously c...|
 |       20|Customer#000000020|       JrPk8Pqplj4Ne|         22|32-957-234-8742|  7603.40|   FURNITURE|g alongside of th...|
 +---------+------------------+--------------------+-----------+---------------+---------+------------+--------------------+
-only showing top 20 rows
+only show top 20 rows
 
 ```
 
